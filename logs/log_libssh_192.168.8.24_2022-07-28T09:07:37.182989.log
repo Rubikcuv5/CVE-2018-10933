@@ -1,0 +1,33 @@
+DEB [20220728-09:07:38.668] thr=1   paramiko.transport: starting thread (client mode): 0x82df9780
+DEB [20220728-09:07:38.669] thr=1   paramiko.transport: Local version/idstring: SSH-2.0-paramiko_2.10.4
+DEB [20220728-09:07:38.672] thr=1   paramiko.transport: Remote version/idstring: SSH-2.0-libssh_0.8.3
+INF [20220728-09:07:38.673] thr=1   paramiko.transport: Connected (version 2.0, client libssh_0.8.3)
+DEB [20220728-09:07:38.679] thr=1   paramiko.transport: === Key exchange possibilities ===
+DEB [20220728-09:07:38.679] thr=1   paramiko.transport: kex algos: curve25519-sha256, curve25519-sha256@libssh.org, ecdh-sha2-nistp256, ecdh-sha2-nistp384, ecdh-sha2-nistp521, diffie-hellman-group16-sha512, diffie-hellman-group18-sha512, diffie-hellman-group14-sha1, diffie-hellman-group1-sha1
+DEB [20220728-09:07:38.679] thr=1   paramiko.transport: server key: rsa-sha2-512, rsa-sha2-256, ssh-rsa
+DEB [20220728-09:07:38.679] thr=1   paramiko.transport: client encrypt: chacha20-poly1305@openssh.com, aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, blowfish-cbc, 3des-cbc
+DEB [20220728-09:07:38.679] thr=1   paramiko.transport: server encrypt: chacha20-poly1305@openssh.com, aes256-ctr, aes192-ctr, aes128-ctr, aes256-cbc, aes192-cbc, aes128-cbc, blowfish-cbc, 3des-cbc
+DEB [20220728-09:07:38.679] thr=1   paramiko.transport: client mac: hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEB [20220728-09:07:38.679] thr=1   paramiko.transport: server mac: hmac-sha2-256, hmac-sha2-512, hmac-sha1
+DEB [20220728-09:07:38.679] thr=1   paramiko.transport: client compress: none, zlib, zlib@openssh.com
+DEB [20220728-09:07:38.680] thr=1   paramiko.transport: server compress: none, zlib, zlib@openssh.com
+DEB [20220728-09:07:38.680] thr=1   paramiko.transport: client lang: <none>
+DEB [20220728-09:07:38.680] thr=1   paramiko.transport: server lang: <none>
+DEB [20220728-09:07:38.680] thr=1   paramiko.transport: kex follows: False
+DEB [20220728-09:07:38.680] thr=1   paramiko.transport: === Key exchange agreements ===
+DEB [20220728-09:07:38.680] thr=1   paramiko.transport: Kex: curve25519-sha256@libssh.org
+DEB [20220728-09:07:38.680] thr=1   paramiko.transport: HostKey: rsa-sha2-512
+DEB [20220728-09:07:38.680] thr=1   paramiko.transport: Cipher: aes128-ctr
+DEB [20220728-09:07:38.680] thr=1   paramiko.transport: MAC: hmac-sha2-256
+DEB [20220728-09:07:38.680] thr=1   paramiko.transport: Compression: none
+DEB [20220728-09:07:38.680] thr=1   paramiko.transport: === End of kex handshake ===
+DEB [20220728-09:07:38.750] thr=1   paramiko.transport: kex engine KexCurve25519 specified hash_algo <built-in function openssl_sha256>
+DEB [20220728-09:07:38.750] thr=1   paramiko.transport: Switch to new keys ...
+DEB [20220728-09:07:38.751] thr=2   paramiko.transport: [chan 0] Max packet in: 32768 bytes
+DEB [20220728-09:07:38.758] thr=1   paramiko.transport: Got EXT_INFO: {'server-sig-algs': b'ssh-ed25519,ecdsa-sha2-nistp256,ecdsa-sha2-nistp384,ecdsa-sha2-nistp521,ssh-rsa,rsa-sha2-512,rsa-sha2-256,ssh-dss'}
+DEB [20220728-09:07:38.759] thr=1   paramiko.transport: [chan 0] Max packet out: 35000 bytes
+DEB [20220728-09:07:38.760] thr=1   paramiko.transport: Secsh channel 0 opened.
+DEB [20220728-09:07:38.771] thr=1   paramiko.transport: [chan 0] Sesch channel 0 request ok
+DEB [20220728-09:07:38.779] thr=1   paramiko.transport: [chan 0] EOF received (0)
+DEB [20220728-09:07:38.785] thr=1   paramiko.transport: [chan 0] EOF sent (0)
+INF [20220728-09:07:43.567] thr=1   paramiko.transport: Disconnect (code 11): Bye Bye
